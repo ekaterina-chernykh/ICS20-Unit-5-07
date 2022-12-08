@@ -25,7 +25,7 @@ function myButtonClicked() {
   let add = 1
 
   // process
-  for (let counter = 0; conter < userNumber; conter++) {
+  for (let counter = 0; counter < userNumber; counter++) {
     sum = sum + add
     add = add + 1
   }
