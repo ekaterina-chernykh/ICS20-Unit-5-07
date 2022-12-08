@@ -20,10 +20,16 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
   // input
-  const height = parseFloat(document.getElementById("height").value)
+  const userNumber = parseFloat(document.getElementById("userNumber").value)
+  let sum = 0
+  let add = 1
 
   // process
-  const volume = 2
+  for (let counter = 0; conter < userNumber; conter++) {
+    sum = sum + add
+    add = add + 1
+  }
+
   // output
-  document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
+  document.getElementById("answer").innerHTML = "The sum is: " + sum
 }
